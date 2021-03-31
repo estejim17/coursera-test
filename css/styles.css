@@ -64,10 +64,28 @@ body {
 
 
 .jumbotron{
+  position: relative;
   padding: 0;
   opacity: 0.8;
   background-image: url('../images/main-jumbotron.png') ;
   height: 659px;
   background-size: cover;
 }
+
+#traits{
+  padding-top: 200px;
+  text-align: left;
+}
+
+#traits span{
+  position:absolute;
+  font-size: xxx-large;
+  margin: 0 auto;
+  left: 20%;
+  color: white;
+}
+
+
+
+
 
