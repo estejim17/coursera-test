@@ -16,13 +16,11 @@ body {
   
 .navbar-brand{
   padding-bottom: 12px;
-  font-size: 2vw;
+  font-size: 25px;
   color: white;
 }
 
 .navbar-brand:hover{
-  padding-bottom: 5px;
-  font-size: 2vw;
   color: rgba(255, 255, 255, 0.623);
 }
 
@@ -51,4 +49,18 @@ body {
 .nav-item:nth-child(4) a{
   position: absolute;
   right: 10px;
+}
+
+#main-content{
+  width: 100%;
+  margin: 0;
+}
+
+.jumbotron{
+  
+  width: 2207px;
+  padding: 0;
+  opacity: 0.8;
+  background: url('../images/main-jumbotron.png') no-repeat;
+  height: 659px;
 }
