@@ -32,7 +32,7 @@ body {
 } */
 
 .carousel-caption h1, .carousel-caption p{
-  text-align: right;
+  text-align: left;
   color: white;
 }
 .custom-toggler .navbar-toggler-icon {
