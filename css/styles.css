@@ -32,7 +32,7 @@ body {
 } */
 
 .carousel-caption h1, .carousel-caption p{
-  text-align: left;
+  text-align: leftgit;
   color: white;
 }
 .custom-toggler .navbar-toggler-icon {
@@ -56,6 +56,7 @@ body {
 }
 .navbar-nav a:hover {
   background: #E7E7E7;
+  color: #000000;
 }
 .navbar-nav a span {
   font-size: 1.8em;
@@ -143,42 +144,9 @@ body {
   }
 
 
-  .navbar-brand {
-    padding-top: 10px;
-    height: 80px;
-  }
-  .navbar-brand a { /* Restaurant name */
-    padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
-  }
-  
-
-  #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
-  }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
-    font-size: 1em;
-    margin-right: 5px;
-  }
-
-  #call-btn > a {
-    font-size: 1.5em;
-    display: block;
-    margin: 0 20px;
-    padding: 10px;
-    border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #951c49;
-  }
-  #xs-deliver {
-    margin-top: 5px;
-    font-size: .7em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-  }
 }
 
-@media (min-width: 62em) {
+@media (min-width: 991px) {
   .featurette-heading {
     margin-top: 7rem;
   }
