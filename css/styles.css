@@ -16,7 +16,6 @@ body {
 
   
 .navbar-brand{
-  padding-bottom: 12px;
   font-size: 25px;
   color: white;
   
@@ -32,7 +31,7 @@ body {
 } */
 
 .carousel-caption h1, .carousel-caption p{
-  text-align: leftgit;
+  text-align: center;
   color: white;
 }
 .custom-toggler .navbar-toggler-icon {
@@ -82,14 +81,15 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 100vh;
 }
 .carousel-item > img {
+  object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 600px;
+  height: 100vh;
 }
 
 
@@ -149,6 +149,12 @@ body {
 @media (min-width: 991px) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+  .image-1{
+    content: url('../images/main-jumbotron.png');
+  }
+  .image-2{
+    content: url('../images/work-jumbotron.jpg');
   }
 }
 
