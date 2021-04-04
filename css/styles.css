@@ -26,10 +26,31 @@ body {
   color: rgba(255, 255, 255, 0.623);
 }
 
-/* #navbarNavAltMarkup a{
-  padding-top: 13px;
-  color: white;
-} */
+.circle-figures-3{
+  background-image: url('../images/programming.jpg');
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.circle-figures-1{
+  background-image: url('../images/mecatronica.jpg');
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.cards-info{
+  height: 100px;
+}
 
 .carousel-caption h1, .carousel-caption p{
   text-align: center;
