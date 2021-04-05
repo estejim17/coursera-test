@@ -26,31 +26,28 @@ body {
   color: rgba(255, 255, 255, 0.623);
 }
 
-.circle-figures-3{
-  background-image: url('../images/programming.jpg');
+
+.circle-figures-1, .circle-figures-2, .circle-figures-3{
   border-radius: 50%;
   width: 140px;
   height: 140px;
   object-fit: cover;
   margin-right: auto;
   margin-left: auto;
-
 }
 
 .circle-figures-1{
   background-image: url('../images/mecatronica.jpg');
-  border-radius: 50%;
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
-  margin-right: auto;
-  margin-left: auto;
-
+}
+.circle-figures-2{
+  background-image: url('../images/research.jpg');
 }
 
-.cards-info{
-  height: 10vh;
+.circle-figures-3{
+  background-image: url('../images/programming.jpg');
 }
+
+
 
 .carousel-caption h1, .carousel-caption p{
   text-align: center;
@@ -124,6 +121,7 @@ body {
   text-align: center;
 }
 .marketing h2 {
+  padding-top: 10px;
   font-weight: 400;
 }
 /* rtl:begin:ignore */
@@ -131,6 +129,11 @@ body {
   margin-right: .75rem;
   margin-left: .75rem;
 }
+
+.cards-info{
+  height: 14vh;
+}
+
 /* rtl:end:ignore */
 
 
