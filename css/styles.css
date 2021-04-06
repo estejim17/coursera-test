@@ -14,6 +14,7 @@ body {
   border-radius: 0;
   border: 0;
   color: white;
+  box-shadow: 0 1px 5px 0px #929292;
 }
 
   
@@ -194,7 +195,18 @@ body {
   letter-spacing: -.05rem;
 }
 
+/*  */
+/* CONTACT PAGE */
+/*  */
 
+.contact{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn-custom{
+  color: white;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
