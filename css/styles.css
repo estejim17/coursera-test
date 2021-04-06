@@ -202,9 +202,11 @@ body {
 
 
 
-.contact-box{
-  border: 1px solid white;
-  border-radius: 50px;
+.contact-container{
+  min-height: 80vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
 }
 
 /* RESPONSIVE CSS
