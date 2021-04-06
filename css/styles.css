@@ -199,13 +199,12 @@ body {
 /* CONTACT PAGE */
 /*  */
 
-.contact{
-  margin-right: auto;
-  margin-left: auto;
-}
 
-.btn-custom{
-  color: white;
+
+
+.contact-box{
+  border: 1px solid white;
+  border-radius: 50px;
 }
 
 /* RESPONSIVE CSS
