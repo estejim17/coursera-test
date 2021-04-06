@@ -7,6 +7,7 @@ body {
     -webkit-text-size-adjust: 100%;
 }
   
+/* NAVBAR CUSTOM */
 
 .navbar-custom{
   background-color: #000000;
@@ -26,33 +27,6 @@ body {
   color: rgba(255, 255, 255, 0.623);
 }
 
-
-.circle-figures-1, .circle-figures-2, .circle-figures-3{
-  border-radius: 50%;
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.circle-figures-1{
-  background-image: url('../images/mecatronica.jpg');
-}
-.circle-figures-2{
-  background-image: url('../images/research.jpg');
-}
-
-.circle-figures-3{
-  background-image: url('../images/programming.jpg');
-}
-
-
-
-.carousel-caption h1, .carousel-caption p{
-  text-align: center;
-  color: white;
-}
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -79,6 +53,39 @@ body {
 .navbar-nav a span {
   font-size: 1.8em;
 }
+/* END NAVBAR CUSTOM */
+
+/* CIRCULOS */
+.circle-figures-1, .circle-figures-2, .circle-figures-3{
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  background-size: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.circle-figures-1{
+  background-image: url('../images/mecatronica.jpg');
+}
+.circle-figures-2{
+  background-image: url('../images/research.jpg');
+}
+
+.circle-figures-3{
+  background-image: url('../images/programming.jpg');
+}
+
+/* END CIRCULOS */
+
+/* CAROUSEL CUSTOM */
+
+.carousel-caption h1, .carousel-caption p{
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -90,11 +97,11 @@ body {
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 1rem;
+  bottom: 4rem;
   z-index: 10;
 }
 
@@ -111,6 +118,16 @@ body {
   height: 50vh;
 }
 
+.image-1{
+  opacity: 0.4;
+}
+.image-2{
+  opacity: 0.3;
+}
+
+.image-3{
+  opacity: 0.5;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -131,7 +148,7 @@ body {
 }
 
 .cards-info{
-  height: 14vh;
+  height: 15.8vh;
 }
 
 /* rtl:end:ignore */
@@ -171,7 +188,11 @@ body {
 
 }
 
-@media (min-width: 991px) {
+@media(min-width: 768px) and (max-width:991px){
+  
+}
+
+@media (min-width: 992px) {
   .featurette-heading {
     margin-top: 7rem;
   }
@@ -179,7 +200,10 @@ body {
     content: url('../images/main-jumbotron.png');
   }
   .image-2{
-    content: url('../images/work-jumbotron.jpg');
+    content: url('../images/carousel2.jpg');
+  }
+  .image-3{
+    content: url('../images/carousel3.jpg');
   }
 }
 
