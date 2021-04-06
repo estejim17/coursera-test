@@ -56,7 +56,7 @@ body {
 /* END NAVBAR CUSTOM */
 
 /* CIRCULOS */
-.circle-figures-1, .circle-figures-2, .circle-figures-3{
+.circle-figures-0, .circle-figures-1, .circle-figures-2, .circle-figures-3{
   border-radius: 50%;
   width: 140px;
   height: 140px;
@@ -64,6 +64,8 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
+
 
 .circle-figures-1{
   background-image: url('../images/mecatronica.jpg');
@@ -169,6 +171,9 @@ body {
   letter-spacing: -.05rem;
 }
 
+footer{
+  margin-top: 6vh;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
