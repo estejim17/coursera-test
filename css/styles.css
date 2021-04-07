@@ -126,12 +126,12 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 2rem;
+  margin-bottom: 8vh;
   z-index: 10;
 }
 
 .carousel-caption p {
-  margin-bottom: 5%;
+  margin-bottom: 3.5vh;
   font-size: 1.25rem;
   line-height: 1.4;
 }
