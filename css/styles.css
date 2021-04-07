@@ -10,7 +10,7 @@ body {
     background-color:black;
     font-family: 'Josefin Sans', sans-serif;
     -webkit-text-size-adjust: 100%;
-    background:  linear-gradient(to bottom,black,rgb(4, 4, 12));
+    background:  linear-gradient(to bottom,black,rgb(0, 0, 255));
     min-height: 100vh; 
 }
   
