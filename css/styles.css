@@ -179,7 +179,7 @@ body {
 }
 
 .cards-info{
-  height: 33%;
+  padding-bottom: 1vh;
 }
 
 /* rtl:end:ignore */
@@ -224,7 +224,7 @@ hr {
   /* Bump up size of carousel content */
   .carousel-caption p {
     /* margin-bottom: 1.25rem; */
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     line-height: 1.4;
   }
 
@@ -236,6 +236,12 @@ hr {
     margin-top: 0vh;
     
   }
+
+  .carousel-caption {
+    margin-bottom: 2vh;
+  }
+
+
 
 
 
