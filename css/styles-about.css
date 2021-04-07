@@ -94,6 +94,10 @@ hr {
   
 }
 
+#myBtn {
+  display: none; /* Hidden by default */
+  color: white;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
